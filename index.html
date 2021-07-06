@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Network</title>
+    <link rel="shortcut icon" href="image/Food.jpg" type="image/x-icon">
+
     <!-- Google Font-family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,23 +28,23 @@
 
         <div id="flexiable-nav">
 
-            <h1 style="margin-left: 80px; color: orange;">
-                FoodNetwork
+            <h1 class="FoodBar" style="margin-left: 80px; ">
+                <span class="orange-color">Food</span> Network
             </h1>
-            <h3 style="margin-left: 250px;">
+            <h3 style="margin-left: 250px; ">
                 <a href="#home" class="design-navbar">Home</a>
             </h3>
             <h3 style="margin-left: 50px;">
                 <a href="#about" class="design-navbar">About me</a>
             </h3>
-            <h3 style="margin-left: 50px;">
+            <h3 style="margin-left: 50px; ">
                 <a href="#recipies" class="design-navbar">My Recipies</a>
+            </h3>
+            <h3 style="margin-left: 50px; ">
+                <a href="#contact" class="design-navbar">Contact Us</a>
             </h3>
             <h3 style="margin-left: 50px;">
                 <a href="#subscribers" class="design-navbar">Subscribers</a>
-            </h3>
-            <h3 style="margin-left: 50px;">
-                <a href="#order" class="design-navbar">Order Now</a>
             </h3>
 
         </div>
@@ -54,7 +56,7 @@
 
     <!-- Home Section -->
 
-    <section class="home ">
+    <section class="home " id="home">
 
         <div class="flexiable-section">
 
@@ -84,6 +86,7 @@
         </div>
     </section>
 
+
     <!--About Me Section-->
 
     <section class="About-me" id="about">
@@ -93,7 +96,8 @@
 
             <div class="half-width">
 
-                <img src="image/Person Image.png" alt="" style="width: 300px; height: 500px;padding-left: 100px;">
+                <img src="image/Person Image.png" alt=""
+                    style="width: 300px; height: 500px;padding-left: 100px; padding-bottom: 0px; position:relative; top: 17px">
 
             </div>
 
@@ -103,11 +107,10 @@
                     About Me
                 </h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Officiis, inventore sit qui voluptate dolorem architecto.Imagine you
-                    don't need a diet because we provide
-                    healthy and delicious food for you!
-                </p><br>
+                    I'm a food lover.I love to eat food this is why I made my restaurant.
+                    I belive that my customer should have the opportunity to eat the kind of quality food that I like to
+                    eat.Our Food Network offers a variety of healty yet tasty foods at your doorstep.
+                </p><br><br>
                 <a class="button-design" href="https://www.linkedin.com/in/jalal-chowdhury-61bba418a/"
                     target="_blank">Contact Me</a>
 
@@ -122,10 +125,10 @@
 
         <h1 class="center-design">My Recipies</h1>
 
-        <p class="center-design">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit vel, labore
-            consequuntur doloremque
-            minima animi doloribus, nesciunt dolore libero alias nisi harum, earum assumenda ipsam inventore fuga
-            facere! Molestiae, nihil!
+        <p class="center-design">
+            Eating good food, especially with family and friends, is one of the pleasures of
+            life.We all know that people who eat healthy, balanced diets.Don't miss out on trying these yummy recipes.
+            Order now and our food will be delievered at your doorstep
         </p>
         <div class="flexiable-section " id="recipies-dg">
 
@@ -133,9 +136,13 @@
 
                 <div class="box-design">
                     <img src="image/food/Project Cover.jpg" alt="">
-                    <h2>Recipie Title</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Esse quam, distinctio minus tempore illo nihil? quos.</p>
+                    <h2>Jimmy Bean</h2>
+                    <p>
+                        Jimmy Bean’s a sweet and warming slow-cooked stew served in the terracotta pot it's cooked in
+                        and from which it takes its name, the tagine has been a staple of Moroccan cuisine for
+                        centuries.
+                    </p>
+
 
                 </div>
             </div>
@@ -143,9 +150,11 @@
 
                 <div class="box-design">
                     <img src="image/food/Project Cover1.jpg" alt="">
-                    <h2>Recipie Title</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Esse quam, distinctio minus tempore illo nihil? quos.</p>
+                    <h2>Chinese Vegatable</h2>
+                    <p>The popularity of vegatable buns has skyrocketed in the Western world in the last decade or so and
+                        while these steamed buns are Chinese in origin , this food proven that it most popular.
+                    </p>
+
 
                 </div>
             </div>
@@ -153,9 +162,11 @@
 
                 <div class="box-design">
                     <img src="image/food/Project Cover.png" alt="">
-                    <h2>Recipie Title</h2>
-                    <p>Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates excepturi libero
-                        voluptatibus. dolor sit amet consectetur adipisicing elit. Nihil, quos.</p>
+                    <h2>Moussaka, Greece</h2>
+                    <p> A good moussaka is a fine dish to have in your repertoire. Its layers of creamy sauce, potato,
+                        ground meat and aubergine create a rich, hearty dish that's perfect for a family get-together.
+                    </p>
+
 
                 </div>
             </div>
@@ -173,28 +184,28 @@
     <section id="contact">
 
         <form action="/action_page.php" target="_blank">
-            
+
             <div class="center-design">
                 <div class="form-inner">
                     <h1>Contact us</h1>
 
-                   
+
                     <input type="text" placeholder="Name"><br><br>
 
-                    
+
                     <input type="email" placeholder="Email"><br><br>
 
-                   
+
                     <input type="text" placeholder="Contact number"> <br><br>
 
-                    
+
                     <textarea placeholder="Message..." rows="10" cols="31"></textarea><br><br>
 
-                    <button class="button-design"type="submit" href="/">Submit</button>
+                    <button class="button-design" type="submit" href="/">Submit</button>
                 </div>
 
             </div>
-            
+
         </form>
 </body>
 </section>
@@ -252,7 +263,7 @@
     </div><br>
 
     <footer class="center-design">
-        <p><small>@Copyrigtts 2021, FOOD NETWORK. All rights REserved</small></p>
+        <p><small>©Copyright 2021, Jalal Chowdhury, Sylhet .All right reserved</small></p>
     </footer>
 
 

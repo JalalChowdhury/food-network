@@ -3,21 +3,37 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/* Navbar for CSS use  */
+
 #flexiable-nav{
     display: flex;
    
     margin-bottom: 50px;
+
+   
+    
+ }
+ .FoodBar{
+   
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     
  }
 
  .design-navbar{
-     color:blue;
+     color:salmon;
      text-decoration: none;
      cursor: pointer;
  }
 
+ .design-navbar:hover{
+    color:green;
+    text-decoration: none;
+    cursor: pointer;
+}
 
- 
+
+ /* Flexiable for use CSS*/
 
  .flexiable-section{
     display: flex;
@@ -25,6 +41,9 @@ body{
     margin-bottom: 50px;
 
  }
+
+
+ /* About us for use CSS */
 
  .half-width{
     margin-left: 80px;
@@ -57,7 +76,10 @@ body{
     font-weight: bold;
     border-radius: 25px;
     cursor: pointer;
+
+    
 }
+
 
 
 #about{
@@ -67,12 +89,13 @@ body{
     background-repeat: no-repeat;
 
     margin-top: 80px;
-    padding-top: 50px;
+    /*padding-top: 50px;*/
 }
 
 .about-design{
 
    padding-left: 200px;
+   padding-top: 100px;
 }
 
 
@@ -137,6 +160,14 @@ body{
     padding: 30px 20px;
 
     margin-bottom: 30px;
+}
+.form-inner h1{
+    font-size: 36px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:  black;
+    
+
 }
 
 /* Subscriber for CSS use */
